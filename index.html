@@ -1,0 +1,679 @@
+<html lang="pt-BR" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths no-ie8compat"><head><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-PWPYE8BBX3&amp;cx=c&amp;_slc=1"></script><script async="" src="//acdn.adnxs.com/dmp/up/pixie.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-language" content="pt-BR">
+		<meta name="title" content="Madero: O hambúrguer do Madero faz o mundo melhor">
+	<meta name="description" content="Para conhecer o cardápio de cada restaurante, escolha um dos restaurantes mais próximos ou outro de sua preferência.">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="Cardápio | Restaurante Madero">
+    <meta property="og:description" content="Para conhecer o cardápio de cada restaurante, escolha um dos restaurantes mais próximos ou outro de sua preferência.">
+    <meta name="google-site-verification" content="neDpF0DFv-QTAn599rb9Y3On8AeYhvwlb8VFqFMqhtw">
+
+	<title>Madero: O hambúrguer do Madero faz o mundo melhor</title>
+    
+    
+    <meta property="og:image" content="">
+    <meta name="google-site-verification" content="y6vynCeOov3rwc-DTfHEJc3R4OtiKzbr8JGrAHZXflk">
+
+    	  
+	<!-- Select2 -->
+	<link rel="stylesheet" type="text/css" href="https://www.restaurantemadero.com.br/assets/site/lib/select2/select2.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://www.restaurantemadero.com.br/assets/site/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.restaurantemadero.com.br/assets/site/lib/bootstrap/css/bootstrap-theme.min.css">
+	<!-- bxSlider -->
+    <link rel="stylesheet" type="text/css" href="https://www.restaurantemadero.com.br/assets/geral/datetimepicker-master/jquery.datetimepicker.css">
+	<link href="https://www.restaurantemadero.com.br/assets/site/lib/bxslider/jquery.bxslider.css" rel="stylesheet">
+	<!-- parallax -->
+	<link rel="stylesheet" href="https://www.restaurantemadero.com.br/assets/site/lib/parallax/normalize.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.restaurantemadero.com.br/assets/site/css/formalize.css">
+			<link rel="stylesheet" href="https://www.restaurantemadero.com.br/assets/site/css/estilo.css?x=563a40af7bab28f0a43a911651cde156">
+		<link rel="shortcut icon" href="https://www.restaurantemadero.com.br/assets/geral/images/icons/favicon.ico">
+	
+	<script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-952117700&amp;cx=c&amp;gtm=45He5710za200&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104839054~104839056~104885889~104885891"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-W6GPD5QN"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TKCQJTH"></script><script src="https://www.restaurantemadero.com.br/assets/geral/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="https://www.restaurantemadero.com.br/assets/site/lib/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+    <script src="https://www.restaurantemadero.com.br/assets/geral/datetimepicker-master/build/jquery.datetimepicker.full.js" type="text/javascript"></script>
+	<script src="https://www.restaurantemadero.com.br/assets/site/js/jquery.formalize.js"></script>
+    
+	<style>
+        @media screen and (min-width: 480px) { 
+            #pagina-restaurante-detalhes #main #foto-restaurante {
+                height: 90vh;
+            }
+        }
+        #home #slide-3 .bcg {
+            background-image: url('https://master.restaurantemadero.com.br/assets/site/images/cms/5.jpg');
+        }
+        #o-chef #hero .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_o_chef-novo.jpg');
+        }
+        #o-chef .junior .photo {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/junior_durski-novo.jpg');
+        }
+        #arquitetura #hero .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_arquitetura01-novo.jpg');
+        }
+        #arquitetura #arquitetura-block-02 .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_arquitetura02-novo.jpg');
+        }
+        #arquitetura #arquitetura-block-03 .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_arquitetura03-novo.jpg');
+        }
+        #arquitetura #arquitetura-block-04 .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_arquitetura04-novo.jpg');
+        }
+        #arquitetura #arquitetura-block-05 .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_arquitetura05-novo.jpg');
+        }
+        #arquitetura #arquitetura-block-06 .bcg {
+            background-image: url('https://www.restaurantemadero.com.br/assets/site/images/bcg_arquitetura06-novo.jpg');
+        }
+
+        @media screen and (min-width: 480px) {
+            #faixa-locator #lista-restaurantes .nome a {
+                color: #fff;
+                text-decoration: none;
+            }
+            #arquitetura #hero .intro {
+                width: 450px !important;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            #faixa-locator #lista-restaurantes .nome a {
+                color: #d5c06b;
+            }
+            #faixa-home #faixa-locator #lista-restaurantes ul.bxslider li .dados p {
+                clear: both;
+            }
+            #arquitetura #hero .intro h1, #arquitetura #hero .intro p {
+                font-size: 28px;
+                line-height: 36px;
+            }
+        }
+
+        /*
+        
+        #faixa-locator #lista-restaurantes .nome a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .wrap #topo .menu-mobile .languages {
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+        .wrap #topo .menu-mobile .languages a.ativa {
+            background-color: #d5c06b;
+            color: #000;
+        }
+        .wrap #topo .menu-mobile .languages a {
+            border: 2px solid #d5c06b;
+            color: #fff;
+            border-radius: 50%;
+            width: 38px;
+            line-height: 34px;
+            display: inline-block;
+            text-align: center;
+            box-sizing: border-box;
+            margin-right: 8px;
+        }
+
+        #pagina-restaurante-detalhes #main #localizacao .texto-mapa .bandeiras img {
+            margin: 0 5px 5px 0;
+        }
+		#pagina-restaurante-detalhes #main #localizacao .texto-mapa dl, #pagina-restaurante-detalhes #main #localizacao .texto-mapa dl p { 
+			color: #fff; 
+			line-height: 23px; 
+		}
+		#pagina-restaurante-detalhes #main #localizacao .texto-mapa dl p strong{
+			color: #d5c06b;
+			font-weight: 300;
+		}
+		
+		@media screen and (min-width: 480px) {
+			#arquitetura #hero .intro {
+				width: 450px;
+			}
+
+            #pagina-restaurante-detalhes #main #localizacao .fone-end .endereco .como-chegar {
+                display: none;
+            }
+		}
+		@media screen and (max-width: 480px) {
+			#arquitetura #hero .intro h1, #arquitetura #hero .intro p {
+				font-size: 28px;
+				line-height: 36px;
+			}
+
+            #pagina-restaurante-detalhes #main #localizacao .fone-end .endereco .como-chegar {
+                display: block;
+                font-size: 12px;
+                text-align: center;
+                display: inline-block;
+                color: #fff;
+                padding: 10px 40px;
+                border: 3px solid #fff;
+                margin: 35px 0 25px;
+            }
+		}
+        */
+	</style>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,
+    f);
+    })(window,document,'script','dataLayer','GTM-TKCQJTH');</script>
+    <!-- End Google Tag Manager -->
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W6GPD5QN');</script>
+<!-- End Google Tag Manager -->
+    <script>
+    var cfg_social = {"fb":"https:\/\/www.facebook.com\/maderobrasil\/","fb_ios":"fb:\/\/profile\/209635072439864","fb_android":"fb:\/\/page\/209635072439864","ig":"https:\/\/www.instagram.com\/maderobrasil\/","ig_ios":"instagram:\/\/user?username=maderobrasil","ig_android":"intent:\/\/instagram.com\/_u\/maderobrasil\/#Intent;package=com.instagram.android;scheme=https;end","tw":"https:\/\/twitter.com\/maderobrasil","tw_ios":"twitter:\/\/user?screen_name=maderobrasil","tw_android":"twitter:\/\/user?screen_name=maderobrasil"};
+    </script>
+
+<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/952117700/?random=1751540781737&amp;cv=11&amp;fst=1751540781737&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5710za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104839054~104839056~104885889~104885891&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fwww.restaurantemadero.com.br%2Fpt%2Fcardapio&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Madero%3A%20O%20hamb%C3%BArguer%20do%20Madero%20faz%20o%20mundo%20melhor&amp;npa=0&amp;pscdl=noapi&amp;auid=211809628.1751540781&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B137.0.7151.103%7CChromium%3B137.0.7151.103%7CNot%252FA)Brand%3B24.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Linux&amp;uapv=5.15.0&amp;uaw=0&amp;fledge=1&amp;_tu=Cg&amp;rfmt=3&amp;fmt=4"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+	font-weight: bold;
+	padding: 8px 15px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	white-space: nowrap;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+	color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+	color: #468847;
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+	color: #3A87AD;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+	color: #C09853;
+	background-color: #FCF8E3;
+	border-color: #FBEED5;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style><style type="text/css" id="notify-madero">.notifyjs-madero-base {
+	border: 2px solid #47d7ac;
+	font-size: 15px;
+	font-weight: 400;
+	color: #a59170;
+	padding: 11px;
+	background: #2c2a2c;
+	width: 300px;;
+}
+.notifyjs-madero-error {
+	color: red;
+	border: 2px solid red;
+}
+</style><style type="text/css" id="core-notify">.notifyjs-corner {
+	position: fixed;
+	margin: 5px;
+	z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+	position: relative;
+	display: block;
+	height: inherit;
+	width: inherit;
+	margin: 3px;
+}
+
+.notifyjs-wrapper {
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	height: 0;
+	width: 0;
+}
+
+.notifyjs-container {
+	display: none;
+	z-index: 1;
+	position: absolute;
+}
+
+.notifyjs-hidable {
+	cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+	position: relative;
+}
+
+.notifyjs-arrow {
+	position: absolute;
+	z-index: 2;
+	width: 0;
+	height: 0;
+}</style><link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/raichu-beta/selos/styles.css"></head>
+<body class="loaded"><a name="voltatopo"></a>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKCQJTH"
+    height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+	
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6GPD5QN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <span class="hide" id="base_url">https://www.restaurantemadero.com.br/</span>
+    <span class="hide" id="no_sigla">pt</span>
+	<div id="preload">
+		<img src="https://www.restaurantemadero.com.br/assets/site/images/sprite.png">
+	</div>
+	 	
+
+	<div class="wrap" id="pagina-cardapio">
+	<div class="logo-mobile">
+	<h1><a href="https://www.restaurantemadero.com.br/home">Madero</a></h1>
+</div>
+<!-- <section class="section-baixar-app-mob show-768 hide" style="position: relative;">
+<div class="" style="padding: 10px 0;">
+	<div class="engloba-baixar-app-mob col-xs-12">
+		<a class="ion-close fecha-app-mob col-xs-1" style="margin-top: 25px">&times;</a>
+		<div class="engloba-logo-svg col-xs-5"><img alt="Logo" src="https://master.restaurantemadero.com.br/assets/site/images/app-logo.png" style="width: 100%;border-radius: 10px;"></div>
+		<div class="col-xs-4">
+			<h3 style="margin-top: 5px; margin-bottom: 0">App Madero</h3>
+			<p style="margin: 0;">Baixe agora e</p>
+			<p style="margin: 0;">peça do seu jeito.</p>
+		</div>
+		<a id="redirect" class="baixar-app-mob col-xs-3" target="_Blank" href="">Baixar app</a>
+	</div>
+</div>
+</section> -->
+<div id="topo">
+	<div class="container">
+		<div class="menu">
+		                    <div id="title"><h2>MADERO</h2></div>
+                <div class="logo-madero"><a href="https://www.restaurantemadero.com.br/pt/home">Madero</a></div>
+            			<ul>
+															<li class="menu-item"><a href="/cardapio">Cardápio</a></li>
+																				<li class="menu-item"><a href="/restaurante">Restaurantes</a></li>
+																				<li class="menu-item"><a href="https://reserva.grupomadero.com.br/reservation">Reservas</a></li>
+																				<li class="menu-item"><a href="https://fidelidade.grupomadero.com.br/">Madero Cashback</a></li>
+																				<li class="menu-item"><a href="/cartaopresente">Cartão Presente</a></li>
+																				<li class="menu-item"><a href="https://ri.grupomadero.com.br/">Investidores</a></li>
+																				<li class="menu-item"><a href="https://www.restaurantemadero.com.br/pt/trabalheconosco">Trabalhe conosco</a></li>
+																				<li class="menu-item"><a href="https://pwa.grupomadero.com.br">Peça Aqui Seu Delivery</a></li>
+												</ul>
+            		</div>
+	</div>
+	<div class="menu-mobile">
+		<a class="abrir-mobile">
+			<div class="linha-1"></div>
+			<div class="linha-2"></div>
+			<div class="linha-3"></div>
+			Abrir Mobile
+		</a>
+		<div class="menu-aberto">
+		    <div id="title"><h1>MADERO</h1></div>
+			<div class="logo-madero clearfix"><a href="https://www.restaurantemadero.com.br/pt/home">Madero</a></div>
+			<ul>
+                															<li class="menu-item"><a href="/cardapio">Cardápio</a></li>
+																				<li class="menu-item"><a href="/restaurante">Restaurantes</a></li>
+																				<li class="menu-item"><a href="https://reserva.grupomadero.com.br/reservation">Reservas</a></li>
+																				<li class="menu-item"><a href="https://fidelidade.grupomadero.com.br/">Madero Cashback</a></li>
+																				<li class="menu-item"><a href="/cartaopresente">Cartão Presente</a></li>
+																				<li class="menu-item"><a href="https://ri.grupomadero.com.br/">Investidores</a></li>
+																				<li class="menu-item"><a href="https://www.restaurantemadero.com.br/pt/trabalheconosco">Trabalhe conosco</a></li>
+																				<li class="menu-item"><a href="https://pwa.grupomadero.com.br">Peça Aqui Seu Delivery</a></li>
+									
+				<!-- <li class="menu-item"><a href="http://maderodelivery.com.br" target="_blank">Delivery (Curitiba)</a></li>  -->
+
+				<li class="menu-item"><a href="https://www.restaurantemadero.com.br/pt/contato">Fale Conosco</a></li>
+				<li class="menu-item"><a href="https://www.restaurantemadero.com.br/pt/novidade">Madero na Mídia</a></li>
+				<li class="menu-item"><a href="https://restaurantemadero.com.br/assets/site/arquivos/Tabela_nutricional_STH.pdf" target="_blank">Tabela nutricional</a></li>
+				<li class="menu-item"><a href="https://master.restaurantemadero.com.br/assets/site/arquivos/TABELA-ALERGENICOS-MADERO.pdf" target="_blank">Tabela de Alergênicos</a></li>
+			</ul>
+            		</div>
+	</div>
+</div>
+<span class="hide" id="img_url">https://master.restaurantemadero.com.br/</span>       	<main>
+			<span id="selected_page" class="hide">cardapio</span>
+			<span id="selected_sigla" class="hide">pt</span>
+	        <section id="slide-1" class="homeSlides">
+	        	<div class="bcg skrollable skrollable-between" style="background-image: url(&quot;https://master.restaurantemadero.com.br/assets/site/images/cms/3.jpg&quot;); background-position: 50% -46.5031px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+		        	<div class="hsContainer">
+						<div class="container">
+							<div class="row">
+								<div class="intro">
+									<h1>Cardápio</h1>
+									<p>Para conhecer o cardápio, escolha um dos restaurantes mais próximos ou outro de sua preferência.</p>
+								</div>
+							</div>
+						</div>
+		        	</div>
+	        	</div>
+		    </section>
+		    <div id="area-lista">
+		    	<div class="center-block">
+	    			<h3>CARDÁPIO</h3>
+					<!--drop-select-->
+	    			<div class=" fluid-container">
+						<div class="row"><div class="col-sm-12 col-md-1 drop"></div>
+	    					<div class="col-sm-12 col-md-3 drop" style="margin-top: 60px">
+								<a class="btn-comprar sth-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-STH_Cardapio_PT_25.pdf">CARDÁPIO STEAKHOUSE</a>
+	    					</div>
+						
+							<div class="col-sm-12 col-md-3  drop" style="margin-top: 60px">
+								<a class="btn-comprar bgr-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-CTN_Cardapio_PT_25.pdf">CARDÁPIO CONTAINER</a>
+	    						
+	    					</div>
+							
+							<div class="col-sm-12 col-md-3  drop" style="margin-top: 60px">
+								<a class="btn-comprar bgr-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/madero+jeronimo-ptbr.pdf">MADERO + JERONIMO</a>
+	    					</div>
+							
+	    					<!--div class="drop col-sm-6">
+	    						<label>Idioma/Language</label>
+	    						<select name="cidade" class="select-plugin" data-placeholder="" id="select-language">
+									<option value="" selected="selected">Escolha um idioma </option>
+									<option value="pt">Português</option>
+									<option value="en">English</option>
+									<!--option class=" espanhol hide" value="es">Español</option>
+								</select>
+	    					</div-->
+	    				</div>
+						
+						<div class="row">
+							<div class="col-sm-12 col-md-4 drop"></div>
+	    					<div class="col-sm-12 col-md-4 drop" style="margin-top: 60px">
+								<a class="btn-comprar sth-en" href="https://www.restaurantemadero.com.br/pt/cardapio/newMenu">VIEW ENGLISH MENU</a>
+	    					</div>
+	    				</div>
+					
+				
+					
+	    			</div>
+	    			<div id="lista-encontrada" class="fluid-container">
+	    				<div class="row">
+							<center>
+							<a class="btn-comprar hide sth-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-STH_Cardapios-221024.pdf">ACESSAR CARDÁPIO STEAKHOUSE</a>
+							<a class="btn-comprar hide sth-en" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-STH_Cardapios Digitais-EN-2024-08.pdf">VIEW STEAKHOUSE MENU</a>
+							<a class="btn-comprar hide ctn-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_Cardapio_PT_0824.pdf">ACESSAR CARDÁPIO CONTAINER</a>
+							<a class="btn-comprar hide ctn-en" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_Cardapio_EN_0824.pdf">VIEW CONTAINER MENU</a>
+							<a class="btn-comprar hide cgh-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_Cardapio_CGH_PT_0824.pdf">ACESSAR CARDÁPIO</a>
+								<a class="btn-comprar hide cgh-en" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_Cardapio_CGH_EN_0824.pdf">VIEW MENU</a>
+								<a class="btn-comprar hide bgr-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_Cardapio_PT_0824.pdf">ACESSAR CARDÁPIO BURGER</a>
+								<a class="btn-comprar hide bgr-en" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_Cardapio_EN_0824.pdf">VIEW BURGER MENU</a>
+								<a class="btn-comprar hide prm-pt" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-PRM_Cardapio_PT_0824.pdf">ACESSAR CARDÁPIO PRIME</a>
+								<a class="btn-comprar hide prm-en" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-PRM_Cardapio_EN_0824.pdf">VIEW PRIME MENU</a>
+								<!--a class="btn-comprar hide cgh-es" target="_blank" href="https://master.restaurantemadero.com.br/assets/site/arquivos/M-BGR_CardapioDigitalCGH_ES.pdf">MENÚ EN ESPAÑOL</a-->
+								
+								
+							</center>
+	    				</div>
+	    			</div>
+                   
+    			</div>
+		</div></main>
+			</div>
+<script>
+	$(document).ready(function(){
+		var menu = '';
+		
+		$('#select-restaurante').change(function(){
+			var tipo = $(this).children("option:selected").val();
+			menu = tipo;
+       		if (tipo == 'cgh'){
+				$('.espanhol').removeClass('hide');
+			} else {
+				$('.espanhol').addClass('hide');
+			}
+		});
+		
+		$('#select-language').change(function(){
+			var selected = $(this).children("option:selected").val();
+			$('.btn-comprar').addClass('hide');
+			var btn = menu+"-"+selected; 
+			$("."+menu+"-"+selected).removeClass('hide');
+        
+		});
+		
+	})
+			</script>
+	<div id="rodape">
+        
+		<div id="faixa-best">
+			<div class="container">
+				<div class="row">
+					<div class="best col-md-5"></div>
+					<div class="links hidden-xs hidden-sm col-md-6">
+						 <!-- INSTAGRAM -->
+                        <a href="https://www.instagram.com/maderobrasil/" target="_blank" class="social">
+                            <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" xmlns:a="https://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="38px" height="37.96px" viewBox="0 0 38 37.96" enable-background="new 0 0 38 37.96" xml:space="preserve" fill="#d5c06b">
+                            <defs>
+                            </defs>
+                            <path id="instagram" d="M19,22.78c2.1,0,3.8-1.7,3.8-3.8c0-0.83-0.27-1.6-0.7-2.2c-0.7-0.97-1.83-1.6-3.1-1.6s-2.4,0.63-3.08,1.6
+                                c-0.46,0.6-0.72,1.37-0.72,2.2C15.2,21.08,16.9,22.78,19,22.78z M27.3,14.33v-3.66h-0.47l-3.2,0.02l0.03,3.63h3.65L27.3,14.33z
+                                 M19,0C8.52,0,0,8.52,0,18.98c0,10.47,8.52,18.98,19,18.98s19-8.5,19-18.98C38,8.52,29.48,0,19,0z M29.8,25.6
+                                c0,2.3-1.87,4.17-4.17,4.17H12.37c-2.3,0-4.17-1.86-4.17-4.17V12.36c0-2.3,1.87-4.17,4.17-4.17h13.26c2.3,0,4.18,1.85,4.18,4.15
+                                V25.6H29.8z M24.9,18.98c0,3.25-2.64,5.9-5.9,5.9s-5.9-2.65-5.9-5.9c0-0.78,0.15-1.53,0.42-2.2H10.3v8.82
+                                c0,1.15,0.93,2.07,2.07,2.07h13.26c1.14,0,2.07-0.92,2.07-2.07v-8.84h-3.23c0.28,0.7,0.44,1.44,0.44,2.22L24.9,18.98z"></path>
+                            </svg>
+                        </a>
+                        <!-- FACEBOOK -->
+                        <a href="https://www.facebook.com/maderobrasil/" target="_blank" class="social">
+                            <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" xmlns:a="https://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="38.03px" height="37.97px" viewBox="0 0 38.03 37.97" enable-background="new 0 0 38.03 37.97" xml:space="preserve" fill="#d5c06b">
+                            <defs>
+                            </defs>
+                            <path id="facebook" d="M19,0C8.5,0,0,8.5,0,19c0,10.47,8.5,18.97,19,18.97S38.03,29.47,38.03,19c0-10.5-8.5-19-19-19H19z M23.5,13.12h-2.85
+                                c-0.34,0-0.7,0.44-0.7,1.04v2.06h3.56v2.94h-3.55v8.82h-3.38v-8.82H13.5v-2.94h3.06V14.5c0-2.5,1.73-4.5,4.1-4.5h2.85v3.12H23.5z"></path>
+                            </svg>
+                        </a>
+                       
+					</div>
+                    <!-- .links xs-hidden col-md-5 -->
+				</div>
+                <!-- .row -->
+			</div>
+		</div>
+        <!-- .faixa-best -->
+
+		<div id="footer">
+			<div class="row mapanews">
+				<div class="col-sm-8 col-sm-offset-2 ">
+					<div class="mapasite">
+						<div class="row">
+							<dl class="col-sm-3">
+								<dt><a href="https://www.restaurantemadero.com.br/pt/madero">O Madero</a></dt>
+								<dd><a href="https://www.restaurantemadero.com.br/pt/madero/chef">O Chef detalhista</a></dd>
+								<dd><a href="https://www.restaurantemadero.com.br/pt/madero/arquitetura">Arquitetura</a></dd>
+								<!-- <dd><a href="https://www.restaurantemadero.com.br/pt/madero/evento">Seu evento no Madero</a></dd> -->
+								<!--dd><a href="https://www.restaurantemadero.com.br/pt/novidade">Madero na Mídia</a></dd-->
+                               
+							</dl>
+							<dl class="col-sm-3">
+								<dt><a href="https://www.restaurantemadero.com.br/pt/restaurante">Restaurantes</a></dt>
+								<dd><a href="https://www.restaurantemadero.com.br/pt/restaurante">Restaurantes próximos</a></dd>
+								<dt><a href="https://www.restaurantemadero.com.br/pt/cardapio">Cardápio</a></dt>
+                                
+								<dd><a href="https://restaurantemadero.com.br/assets/site/arquivos/Tabela_nutricional_STH.pdf" target="_blank">Tabela nutricional</a></dd>
+								<dd><a href="https://master.restaurantemadero.com.br/assets/site/arquivos/TABELA-ALERGENICOS-MADERO.pdf?mod=1743705321" target="_blank">Tabela de Alergênicos</a></dd>
+                                
+							</dl>
+							<dl class="col-sm-3">
+								<dt><a href="https://www.restaurantemadero.com.br/pt/casa">Para fazer em casa</a></dt>
+								
+								
+								                                <!-- <dt><a href="http://maderodelivery.com.br" target="_blank">Delivery (Curitiba)</a></dt> -->
+                                    <dt><a href="https://grupomadero.com.br/delivery.html" target="_blank">Delivery</a></dt>
+                            </dl>
+							<dl class="col-sm-3 ins">
+								<dt><a href="https://fidelidade.grupomadero.com.br">Madero Cashback</a></dt>
+								
+                                                                <dt><a href="https://www.restaurantemadero.com.br/pt/contato">Fale Conosco</a></dt>
+                                <dt><a href="https://www.restaurantemadero.com.br/pt/trabalheconosco" target="_BLANK">Trabalhe Conosco</a></dt>
+								 <dd><a style="margin-top:15px" href="https://www.restaurantemadero.com.br/pt/trabalheconosco/relatorios">Relatórios MTE</a></dd>
+							</dl>
+						</div>
+					</div>
+                    <!-- .mapasite -->
+                </div>
+                <!-- .col-sm-8 col-sm-offset-2 -->
+                <div class="col-sm-10 col-sm-offset-1">
+					<div class="newsletter container-fluid">
+						<div class="row">
+							<div class="cadastro-news">
+                                <div class="row">
+                                    <div class="col-sm-7 col-sm-offset-3">
+                                        <p class="assine">Assine para Receber novidades: Inaugurações, Novos Pratos, Promoções e Eventos.</p>
+                                        <p class="termos"><span>Para o atendimento à sua solicitação será necessária a coleta de seus dados, como, mas não limitado a: nome completo, telefone, e-mail e endereço. 
+                                        Esses dados serão tratados de acordo com a <a style="display: inline; color: #ffffff" class="link-menu-ativo" href="https://www.restaurantemadero.com.br/pt/politica" target="_blank">Política de Privacidade</a> e <a href="https://www.restaurantemadero.com.br/pt/termo" style="color: #ffffff" target="_blank">Termos de Uso</a> do Grupo Madero. 
+                                        Encaminhando o formulário, você declara estar ciente sobre a utilização dos seus dados pessoais para a continuidade do seu atendimento.</span> </p>
+                                        <form id="formulario-newsletter" class="fluid-container">
+                                            <div class="row">
+                                                <div class="input-item col-xs-12 col-sm-5">
+													<input name="no_nome" class="input-campo" type="text" placeholder="Seu Nome">
+												</div>
+												<div class="input-item col-xs-12 col-sm-5">
+													<input name="no_email" class="input-campo" type="text" placeholder="Seu E-mail">
+												</div>
+                                                <div class="input-enviar col-xs-12 col-sm-1">
+                                                    <a id="btn-enviar-newsletter">OK</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="col-sm-10">
+                                            <p class="termos"><span><a href="https://www.restaurantemadero.com.br/pt/termo">Termos de uso e</a> <a href="https://www.restaurantemadero.com.br/pt/politica">política de privacidade - </a> <a href="https://www.restaurantemadero.com.br/pt/politica/cookies">Política de Cookies.</a></span></p>
+                                            <p class="termos"><span><strong>Cozinha Central:</strong> Rua Vicente Nadal, 433, Cará Cará, Ponta Grossa/PR, CEP 84043-760. </span></p>
+                       
+                                            <p class="termos"><span><strong>Sede Administrativa:</strong> Rua Luisa Dariva, 40, 22º andar,  Campina do Siqueira, Curitiba/PR, CEP 80730-480.</span></p>
+                                        </div>
+										<div class="col-sm-3"></div>
+										<div class="col-sm-10" style="display: inline-flex; justify-content: space-evenly;
+    align-items: flex-start;">
+											<img src="https://www.restaurantemadero.com.br/assets/site/images/selo-gptw-madero.png" width="94" style="margin-bottom: 40px" alt="Certificado GPTW">
+										
+                                            <p class="termos"> <a href="https://www.restaurantemadero.com.br/pt/novidade/item/grupo-madero-e-referencia-em-acoes-sustentaveis-na-america-do-sul-pt" alt="Selo Leed"> <img src="https://www.restaurantemadero.com.br/assets/site/images/leed.png" width="94" style="margin-bottom: 40px" alt="Certificado Leed USGBC"></a></p>
+                                        
+											
+											<div style="margin-top: 15px" id="reputation-ra"><script type="text/javascript" src="https://s3.amazonaws.com/raichu-beta/selos/bundle.js" data-id="MjUwNjQ6cmVzdGF1cmFudGUtbWFkZXJv" data-target="reputation-ra" data-model="1"></script><div id="ra-widget-reputation" style="width:97px;height:96px;overflow:hidden;"><a class="ra-widget-reputation-holder" target="_blank" title="Selo Reclame Aqui" href="https://www.reclameaqui.com.br/empresa/restaurante-madero/?utm_source=referral&amp;utm_medium=embbed&amp;utm_campaign=reputacao&amp;utm_term=vertical"><div style="visibility: hidden;" class="ra-widget-ra-1000 ra-widget-reputation-content type-1 ra-reputation-loaded"><img importance="high" style="height:48px;width:auto;" class="ra-widget-reputation-stamp" src="https://s3.amazonaws.com/raichu-beta/selos/assets/images/ra-1000.svg" alt="Empresa RA1000 pelo Selo Reclame AQUI" title="RA 1000"><div class="ra-widget-reputation-text">RA 1000</div><img importance="high" style="height:12.75px;width:80px;" class="ra-widget-reputation-logo" alt="Selo Reclame Aqui" src="https://s3.amazonaws.com/raichu-beta/selos/assets/images/reclame-aqui-logo.svg"></div></a></div></div>
+										</div>
+                                    </div>
+                                    <div class="voltar-topo col-md-2"><a></a></div>
+                                </div>
+							</div>
+                        </div>
+					</div>
+					<div class="logosocial hidden-sm hidden-md hidden-lg">
+						<div class="social">
+							<!-- <a class="ico fb" href="https://www.facebook.com/maderobrasil/" target="_blank">Facebook</a> -->
+							<a class="ico is" href="https://www.instagram.com/maderobrasil/" target="_blank">Instagram</a>
+						</div>
+					</div>
+				</div>
+                <!-- .col-sm-10 col-sm-offset-1 -->
+			</div>
+            <!-- .row mapanews -->
+	    </div>
+        <!-- .footer -->
+	</div>
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","386497778473812");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=386497778473812&amp;ev=PageView&amp;noscript=1"></noscript>
+<script type="text/javascript" id="" charset="">!function(a,b){if(!a.pixie){var c=a.pixie=function(d,e,f){c.actionQueue.push({action:d,actionValue:e,params:f})};c.actionQueue=[];a=b.createElement("script");a.async=!0;a.src="//acdn.adnxs.com/dmp/up/pixie.js";b=b.getElementsByTagName("head")[0];b.insertBefore(a,b.firstChild)}}(window,document);pixie("init","3646b864-b547-43c8-ad38-d9471115d33c");</script>
+
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","2010625032405050");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2010625032405050&amp;ev=PageView&amp;noscript=1"></noscript><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-952117700" data-load-time="1751540781742" height="0" width="0" src="https://td.doubleclick.net/td/rul/952117700?random=1751540781737&amp;cv=11&amp;fst=1751540781737&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5710za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104839054~104839056~104885889~104885891&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fwww.restaurantemadero.com.br%2Fpt%2Fcardapio&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Madero%3A%20O%20hamb%C3%BArguer%20do%20Madero%20faz%20o%20mundo%20melhor&amp;npa=0&amp;pscdl=noapi&amp;auid=211809628.1751540781&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B137.0.7151.103%7CChromium%3B137.0.7151.103%7CNot%252FA)Brand%3B24.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Linux&amp;uapv=5.15.0&amp;uaw=0&amp;fledge=1&amp;_tu=Cg" style="display: none; visibility: hidden;"></iframe>
+
+
+  <div class="cookiealert" style="background: transparent;">
+           
+            <div class="alert text-center" style="background: #D4C16B!important; margin-bottom: 0px;" role="alert">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 text-center" style="padding-top: 12px">
+                            <div style="">Ao interagir com este site, você concorda com os termos descritos na &nbsp; <a href="https://www.restaurantemadero.com.br/pt/politica" style="text-decoration: none; color: #ffffff; font-weight: 900;" target="_blank">Política de Privacidade</a>&nbsp; e no uso dos seus dados para as finalidades descritas nela.</div>
+                            
+                        </div>
+                        <div class="col-md-2">
+                            <div style="">
+                                <button type="button" style="color: #fff; padding: 10px 35px; display: inline-block; font: normal normal bold 14px/22px Poppins; font-weight: bold; text-transform: uppercase; border: 1px solid #fff; background: #D4C16B 0% 0% no-repeat padding-box; border-radius: 10px; opacity: 1;" class="acceptcookies">
+                                    Concordo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="wrapper show">
+      <header>
+        <i class="bx bx-cookie"></i>
+        <h2>Nós Usamos Cookies</h2>
+      </header>
+      <div class="data">
+        <p>Este site utiliza cookies para ajudá-lo a ter uma experiência de navegação melhor e mais relevante no site. <a href="https://www.restaurantemadero.com.br/pt/politica/cookies" target="_blank" title="Política de Cookies"> Saiba Mais</a></p>
+      </div>
+      <div class="buttons">
+        <button class="button" id="acceptBtn">Aceitar</button>
+        <button class="button" id="declineBtn">Recusar</button>
+      </div>
+    </div>
+
+
+	<!-- parallax -->
+    <script src="https://www.restaurantemadero.com.br/assets/site/lib/parallax/imagesloaded.js"></script>
+	<script src="https://www.restaurantemadero.com.br/assets/site/lib/parallax/skrollr.js"></script>
+	<script src="https://www.restaurantemadero.com.br/assets/site/lib/parallax/_main.js"></script>
+	<!-- Select2 -->
+	<script type="text/javascript" src="https://www.restaurantemadero.com.br/assets/site/lib/select2/select2.js"></script>
+	<!-- Bootstrap -->
+	<script src="https://www.restaurantemadero.com.br/assets/site/lib/bootstrap/js/bootstrap.min.js"></script>
+	<!-- bxSlider -->
+	<script src="https://www.restaurantemadero.com.br/assets/site/lib/bxslider/jquery.bxslider.js"></script>
+	<!-- NOTIFY -->
+    <script src="https://www.restaurantemadero.com.br/assets/geral/js/notify.js"></script>
+	<!-- MASK -->
+    <script src="https://www.restaurantemadero.com.br/assets/geral/js/masks.js"></script>
+    <script src="https://www.restaurantemadero.com.br/assets/geral/js/maskedinput.js"></script>
+    <!-- AJAX LOADING -->
+	<script src="https://www.restaurantemadero.com.br/assets/geral/js/ajax-loading.js"></script>
+	<!-- PLUGIN AJAX FORM -->
+	<script src="https://www.restaurantemadero.com.br/assets/geral/js/ajax_form.js"></script>
+
+            <script src="https://www.restaurantemadero.com.br/assets/site/js/cookies.js"></script>
+    	<!-- parallax -->
+	<script src="https://www.restaurantemadero.com.br/assets/site/lib/parallax/modernizr-2.7.1.min.js"></script>
+	<script type="text/javascript" src="https://www.restaurantemadero.com.br/assets/site/js/scripts.js?x=e9741953dfa50a44ff84d9e2eb79fcf7"></script>
+	<script type="text/javascript" src="https://www.restaurantemadero.com.br/assets/site/lib/script.js?x=8d90bf6e1e11327a60b5251ec1891d68"></script>
+        	<!-- API Google Maps (Key: AIzaSyBvTpqGQHd2UnwWIH-eua9E9yJO08TH95g || AIzaSyDVv9rWVyvd2sd9mHsNgQQiV8L6bacB8pc) -->
+	<!-- <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3nwwf1j8GE4KnA8ZJB-WFgtjDK4iI_r0&libraries=places&callback=initMap"></script> -->
+    
+
+</body></html>
