@@ -4,37 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Castilho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Barra de navegação -->
     <header>
         <div class="logo">
             <h1>Restaurante Castilho</h1>
         </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Início</a></li>
                 <li><a href="#menu">Cardápio</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
+    <!-- Banner -->
     <section id="home">
         <div class="banner">
             <h2>Bem-vindo ao Restaurante Castilho</h2>
-            <p>Onde o sabor é nossa especialidade!</p>
+            <p>Descubra sabores incríveis em cada prato!</p>
         </div>
     </section>
 
+    <!-- Cardápio -->
     <section id="menu">
         <h2>Nosso Cardápio</h2>
         <div class="menu-items">
             <div class="menu-item">
-                <img src="prato1.jpg" alt="Prato 1">
+                <img src="prato1.jpg" alt="Feijoada">
                 <h3>Feijoada</h3>
-                <p>Uma deliciosa feijoada com ingredientes frescos e saborosos.</p>
+                <p>Uma deliciosa feijoada brasileira com carne de porco e arroz fresquinho.</p>
                 <ul>
                     <li>Feijão preto</li>
                     <li>Carne de porco</li>
@@ -43,7 +52,7 @@
                 </ul>
             </div>
             <div class="menu-item">
-                <img src="prato2.jpg" alt="Prato 2">
+                <img src="prato2.jpg" alt="Moqueca Baiana">
                 <h3>Moqueca Baiana</h3>
                 <p>Moqueca com camarões e peixe, temperada com dendê e leite de coco.</p>
                 <ul>
@@ -54,9 +63,9 @@
                 </ul>
             </div>
             <div class="menu-item">
-                <img src="prato3.jpg" alt="Prato 3">
+                <img src="prato3.jpg" alt="Parmegiana">
                 <h3>Parmegiana de Carne</h3>
-                <p>Carne empanada, coberta com molho de tomate e queijo gratinado.</p>
+                <p>Carne empanada, molho de tomate e queijo gratinado, servido com arroz.</p>
                 <ul>
                     <li>Carne de boi</li>
                     <li>Molho de tomate</li>
@@ -67,19 +76,23 @@
         </div>
     </section>
 
+    <!-- Sobre -->
     <section id="about">
         <h2>Sobre Nós</h2>
-        <p>O Restaurante Castilho oferece pratos tradicionais da culinária brasileira, preparados com muito carinho e ingredientes de qualidade. Nossa missão é proporcionar uma experiência gastronômica única a cada cliente.</p>
+        <p>O Restaurante Castilho traz o melhor da culinária brasileira, com receitas autênticas e ingredientes frescos. Nossa missão é oferecer uma experiência gastronômica única e memorável para nossos clientes.</p>
     </section>
 
+    <!-- Contato -->
     <section id="contact">
         <h2>Contato</h2>
-        <p>Estamos localizados em: Rua Fictícia, 123 - Bairro Teste</p>
+        <p>Visite-nos em: Rua Fictícia, 123 - Bairro Teste</p>
         <p>Telefone: (11) 98765-4321</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Restaurante Castilho - Todos os direitos reservados</p>
+        <p>&copy; 2025 Restaurante Castilho. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
